@@ -1,0 +1,56 @@
+
+/* Using CSS Minify */
+
+
+body {
+    background-color: pink;
+}
+h1 {
+    text-align: center;
+    color: rgb(173, 60, 79);
+    text-shadow: 3px 3px 3px rgb(163, 122, 122);
+    border-bottom: 5px solid rgba(173, 60, 79,0.66);
+    border-right: 5px solid rgba(173, 60, 79,0.66);
+    width: 750px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Edu VIC WA NT Beginner', Georgia;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px rgb(163, 122, 122);
+}
+h3 {
+    text-align: center;
+    color: brown;
+    font-size: 45px;
+    text-decoration: underline;
+}
+img {
+    float: right;
+    width: 385px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid rgb(173, 60, 79);
+    border-radius: 30px;
+    transition: all 0.7s;
+}
+img:hover {
+    transform: scale(1.18);
+}
+p {
+    text-align: left;
+    color: rgb(64, 134, 111);
+    font-size: 30px;
+}
+.images {
+    clear: both;
+    color: brown;
+}
+.contain {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+} 
